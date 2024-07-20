@@ -12,6 +12,12 @@ public class HomePage {
 		PageFactory.initElements(driver,this);
 	}
 	
+	
+	public WebElement getDashboardlink() {
+		return dashboardlink;
+	}
+
+
 	@FindBy(xpath="//span[text()='My Profile']")
 	private WebElement myprofilelink;
 	@FindBy(xpath="//span[text()='Grade']")
@@ -100,6 +106,7 @@ public class HomePage {
 	}
 	@FindBy(xpath="//span[text()='Dashboard']")
 	private WebElement dashboardlink;
+	
 	
 	
 

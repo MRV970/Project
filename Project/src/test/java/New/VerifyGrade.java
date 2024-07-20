@@ -53,10 +53,10 @@ public class VerifyGrade extends Baseclass {
 			
 		
 		 grade=grades.getText();
-		 System.out.println(grade);
+		// System.out.println(grade);
 		 
 		}
-		System.out.println(grade);
+		//System.out.println(grade);
 		if(grade.contains(Grade)) {
 			System.out.println("grade is created");
 		}
