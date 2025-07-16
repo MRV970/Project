@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="New.VeriftyTimeTableTest">
+      <class name="New.SubjectRoutingTest">
         <methods>
           <include name="configBM"/>
+          <include name="createSubjectRouting"/>
           <include name="configAM"/>
           <include name="configBS"/>
           <include name="configBC"/>
-          <include name="createtimetableTest"/>
           <include name="configAS"/>
           <include name="configAC"/>
         </methods>
-      </class> <!-- New.VeriftyTimeTableTest -->
+      </class> <!-- New.SubjectRoutingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -26,6 +26,7 @@ public class StudentEventTest extends Baseclass {
 		String color=eLib.getDataFromExcel("sheet1", 1, 11);
 		
 		
+		
 		ep.getTitleEdt().sendKeys(title);
 	WebElement category=	ep.getCategoryEdt();
 	wLib.selectbyIndex(category, 2);
